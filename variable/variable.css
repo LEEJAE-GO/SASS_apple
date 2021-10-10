@@ -1,0 +1,5 @@
+.btn1 { width: 200px; height: 50px; line-height: 50px; font-size: 30px; color: #fff; background-color: #c9c9c9; border: 1px solid #fff; }
+
+.btn1:hover { background: #555; color: #c9c9c9; }
+
+.btn2 { font-size: 30px; border: 1px solid red; background-color: blue; color: #c9c9c9; padding: 10px; }
