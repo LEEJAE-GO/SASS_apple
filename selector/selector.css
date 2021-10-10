@@ -1,0 +1,15 @@
+.aa { color: red; }
+
+.aa ul { border: 1px solid red; }
+
+.aa ul > li { background: pink; }
+
+.aa ul > li a { text-decoration: none; }
+
+.aa ul > li a:hover { color: red; }
+
+.aa ul > li a.bbb { font-size: 11px; }
+
+.aa ul > li .bbb { color: greenyellow; }
+
+.aa ul > li:last-child { border: 1px dotted yellow; }
