@@ -23,3 +23,15 @@ $fontSize: (
     font-size: #{ $fs };
   }
 }
+
+$fontColor: (
+  h1: red,
+  h2: blue,
+  h3: green
+);
+
+@each $el, $color in $fontColor {
+  #{ $el } {
+    color: #{ $color };
+  }
+}
