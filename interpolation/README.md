@@ -9,7 +9,7 @@
 ```scss
 $test: main;
 
-.$test {
+.#{ $test } {
   border: 1px solid black;
 }
 ```
