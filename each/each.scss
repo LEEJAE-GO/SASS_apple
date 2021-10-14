@@ -1,0 +1,25 @@
+$colors: red, blue, pink, black, yellow;
+
+@each $var in $colors {
+  .ic#{ $var } {
+    border: 1px solid $var;
+  }
+}
+
+@each $var in $colors {
+  .ict#{ $var } {
+    border: 1px solid $var;
+  }
+}
+
+$fontSize: (
+  h1: 30px,
+  h2: 20px,
+  h3: 15px
+);
+
+@each $el, $fs in $fontSize {
+  #{ $el } {
+    font-size: #{ $fs };
+  }
+}

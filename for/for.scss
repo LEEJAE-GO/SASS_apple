@@ -1,0 +1,11 @@
+@for $i from 1 to 6 {
+  .ic#{ $i } {
+    border: 1px solid red;
+  }
+}
+
+@for $i from 1 through 5 {
+  .ict#{ $i } {
+    border: 1px solid blue;
+  }
+}
